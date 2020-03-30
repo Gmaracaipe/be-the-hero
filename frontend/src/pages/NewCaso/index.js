@@ -18,7 +18,7 @@ export default function NewCaso(){
     const ongId = localStorage.getItem('ongId');
 
     async function handleNewCaso(e) {
-        e.preventDefault();
+        e.preventDefault(); 
 
         const data = {
             title,
